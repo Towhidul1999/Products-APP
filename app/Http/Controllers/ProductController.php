@@ -27,4 +27,8 @@ class ProductController extends Controller
 
         // return $products;
     }
+
+    public function admin(){
+        return view('admin');
+    }
 }
